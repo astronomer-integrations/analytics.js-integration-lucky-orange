@@ -34,7 +34,6 @@ describe('Lucky Orange', function() {
       .assumesPageview()
       .global('_loq')
       .global('__wtw_lucky_site_id')
-      .global('__wtw_lucky_is_segment_io')
       .global('__wtw_custom_user_data')
       .option('siteId', null));
   });
